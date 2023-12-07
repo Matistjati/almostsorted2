@@ -17,7 +17,7 @@ The primary test case illustrating the issue is:
 
 5 5 2 7
 
-For which zetatwo.py says "No" for, even though you can reverse a prefix to get 2 5 5 7. It is very likely that the judge solution has the exact same bug, where it can't handle a prefix of the same number needing to be reversed.
+For which zetatwo.py says "No", even though you can reverse a prefix to get 2 5 5 7. It is very likely that the judge solution has the exact same bug, where it can't handle a prefix of the same number needing to be reversed.
 
 
 ## Not a statement bug
@@ -26,4 +26,4 @@ We also considered the alternative that the author intended "strictly increasing
 
 ## The proposed solution
 
-Use nwerc1.cpp or nwerc2.cpp as judge solution, and re-generate the test data.
+Use nwerc1.cpp or nwerc2.cpp as judge solution, and re-generate the test data. I am of the opinion that we should do a full rejudge, meaning that all incorrect solutions (previously AC) get WA.
