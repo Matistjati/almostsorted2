@@ -7,7 +7,7 @@ It is equivalent to the problem ["Inverted Deck"](https://open.kattis.com/proble
 
 To be extra sure, I stress-tested the judge solutions against an "obviously correct" cubic solution. This is the main contens of the repository (see submissions). 1000 did not result in any solutions disagreeing.
 
-Another indication that something is wrong is that the problem is of difficulty 8.6, unreasonably high for such an easy problem. I haven't been able to find a correct solution online. All easily accessible ones use some weird bypass (the author of this solution most likely overfitted using the test data, as they also attend NUS, the origin of the problem. [The solution in question](https://github.com/abeaumont/competitive-programming/blob/a24c9b89941a59d344b51dc1010de66522b1a0dd/kattis/almostsorted2.cc#L19C7-L19C7))
+Another indication that something is wrong is that the problem is of difficulty 8.6, unreasonably high for such an easy problem. I haven't been able to find a correct solution online. All easily accessible ones use some weird bypass (the author of this solution most likely overfitted using the test data, as they also attend NUS, the origin of the problem. [The solution in question](https://github.com/abeaumont/competitive-programming/blob/a24c9b89941a59d344b51dc1010de66522b1a0dd/kattis/almostsorted2.cc#L19C7-L19C7), see line 19)
 
 # What went wrong
 
