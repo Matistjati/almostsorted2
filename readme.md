@@ -12,8 +12,11 @@ In this repository I have included the means to stress-test these against a naiv
 The judge solution is almost surely incorrect. Through sheer luck, Calle Svensson wrote a solution that has the same bug as the judge solution. It can be found in realac/zetatwo.py
 
 The primary test case illustrating the issue is:
+
 4
+
 5 5 2 7
+
 For which zetatwo.py says "No" for, even though you can reverse a prefix to get 2 5 5 7. It is very likely that the judge solution has the exact same bug, where it can't handle a prefix of the same number needing to be reversed.
 
 
